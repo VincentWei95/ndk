@@ -22,9 +22,6 @@ public class JNITest {
         throw new NullPointerException("native access throw null pointer exception!");
     }
 
-    static {
-        System.loadLibrary("ndk");
-    }
 
     public native String getStringFromJNI();
 
